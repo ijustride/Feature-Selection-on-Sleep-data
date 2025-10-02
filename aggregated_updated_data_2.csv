@@ -1,0 +1,5 @@
+Occupation,Age_mean,Age_std,Sleep Duration_mean,Sleep Duration_std,Quality of Sleep_mean,Quality of Sleep_std,Physical Activity Level_mean,Physical Activity Level_std,Stress Level_mean,Stress Level_std,Systolic_mean,Systolic_std,Diastolic_mean,Diastolic_std,Heart Rate_mean,Heart Rate_std,Daily Steps_mean,Daily Steps_std,Mode,Unique_Count
+Manual Labor,38.66,13.71,8.19,2.52,5.99,1.86,68.61,32.76,5.26,2.81,121.29,8.14,72.44,8.91,74.48,16.16,10876.05,5228.21,Female,2
+Office Worker,40.08,13.68,8.25,2.58,6.09,1.86,61.68,33.40,5.93,2.70,122.45,8.56,72.73,8.77,75.27,14.51,11588.65,5582.53,Female,2
+Retired,41.11,14.16,7.94,2.27,6.08,1.98,66.81,31.01,5.21,2.84,122.86,7.89,73.73,8.61,76.29,15.42,10406.75,5483.02,Male,2
+Student,39.96,14.62,7.81,2.21,6.31,2.18,63.22,31.99,5.47,2.87,122.15,8.36,73.25,9.61,77.69,14.39,11368.96,5180.16,Male,2
