@@ -494,7 +494,7 @@ def read_data(file_path, gender, age, job_list, sleepDur, sleepQuality, physical
         steps[i] = float(steps[i])
 
     for i in range(len(job_list)):
-        if file_path == 'Feature-Selection-on-Sleep-data/updated_data_1.csv':
+        if file_path == 'Feature-Selection-on-Sleep-data/data/updated_data_1.csv':
             if job_list[i] == 'Engineer':
                 job_list[i] = 1
             if job_list[i] == 'Accountant':
@@ -517,7 +517,7 @@ def read_data(file_path, gender, age, job_list, sleepDur, sleepQuality, physical
                 job_list[i] = 10
             if job_list[i] == 'Sales Representative':
                 job_list[i] = 11   
-        elif file_path == 'Feature-Selection-on-Sleep-data/updated_data_2.csv':
+        elif file_path == 'Feature-Selection-on-Sleep-data/data/updated_data_2.csv':
             if job_list[i] == 'Manual Labor':
                 job_list[i] = 1
             if job_list[i] == 'Office Worker':

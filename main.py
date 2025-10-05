@@ -17,7 +17,7 @@ if __name__=='__main__':
     steps = []
     sleepDisorder = []
 
-    file_path = "Feature-Selection-on-Sleep-data/updated_data_2.csv"  
+    file_path = "Feature-Selection-on-Sleep-data/data/updated_data_2.csv"  
     ftr.read_data(file_path, gender, age, job_list, sleepDur, sleepQuality, physicalAct,
             stressLevel, bmi, systolic, diastolic, heartrate, steps, sleepDisorder)
 
