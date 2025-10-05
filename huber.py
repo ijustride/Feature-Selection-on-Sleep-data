@@ -134,7 +134,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from sklearn.utils import resample
 
 # Загрузка данных
-data = pd.read_csv('updated_data_1.csv')  # Замените на имя вашего файла
+data = pd.read_csv('/Users/brklnby/Desktop/Projects/Feature-Selection-on-Sleep-data/updated_data_1.csv')  # Замените на имя вашего файла
 
 # Выбор признаков и целевой переменной
 features = ['Occupation', 'Age', 'Sleep Duration', 'Quality of Sleep', 'Physical Activity Level']
