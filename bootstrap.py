@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-data = pd.read_csv("ДАННЫЕ")
+data = pd.read_csv("Feature-Selection-on-Sleep-data/data/updated_data_1.csv")
 
 # Features and target
 features = ['Occupation', 'Sleep Duration', 'Quality of Sleep', 
@@ -164,7 +164,7 @@ plt.ylabel('Permutation Importance (ΔR²)')
 plt.legend()
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig('feature_importance.png')
+plt.savefig('Feature-Selection-on-Sleep-data/pics/feature_importance.png')
 plt.show()
 
 # =========================================
@@ -228,7 +228,7 @@ for i, metric in enumerate(metrics):
         ax.set_ylim(0, 1)  # R² typically between 0-1
 
 plt.tight_layout()
-plt.savefig('model_performance.png')
+plt.savefig('Feature-Selection-on-Sleep-data/pics/model_performance.png')
 plt.show()
 
 # ==============================
